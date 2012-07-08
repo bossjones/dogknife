@@ -65,7 +65,7 @@ class Chef
           begin
             lwr.close_write
             logged = lrd.read
-            body = "Nothing logged"
+            body = ""
             body = "Knife logged\n@@@#{logged}@@@" if logged.length > 0
             dog.emit_event(Dogapi::Event.new(body,
                                              :msg_title       => "#{who} ran: knife #{args.join(' ')} in #{duration} second(s)",
