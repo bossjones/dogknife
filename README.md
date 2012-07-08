@@ -6,6 +6,8 @@ dogknife
 [Datadog](http://www.datadoghq.com) already instruments your [Chef](http://opscode.com/chef) runs.
 Now, with `dogknife`, instrument your knife commands to know who runs what and when.
 
+![dogknife events](https://img.skitch.com/20120708-8bdckjdn3exxi9jfwq18gxxytx.png)
+
 Getting Started
 ===============
 
