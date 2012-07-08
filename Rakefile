@@ -16,11 +16,12 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "dogknife"
   gem.homepage = "http://www.datadoghq.com/"
-  gem.license = "BSD"
+  gem.license = "Apache License 2.0"
   gem.summary = %Q{Knife }
   gem.description = %Q{This wrapper exports knife actions to Datadog.}
   gem.email = "packages@datadoghq.com"
   gem.authors = ["Alexis Le-Quoc"]
+  gem.bindir = "bin"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
